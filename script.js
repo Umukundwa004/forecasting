@@ -1,4 +1,6 @@
-const apiKey = "cf3d352e2a70cfe0ebc71fd8f1e24c93";
+const apiKey = process.env.API_KEY;
+require('dotenv').config();
+//console.log(Process.env);
 
         // Initialize current dategit 
         function updateCurrentDate() {
