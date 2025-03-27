@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>THE WEATHER FORECASTING</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Weather Forecasting App</h1>
+        <div class="date-location">
+            <div id="current-date"></div>
+            <div id="current-location">Kigali, RW</div>
+        </div>
+        <!--search-->
+        <div class="search-container">
+            <input type="text" id="city-input" placeholder="Enter city name">
+            <button id="search-btn">Search</button>
+        </div>
+        
+        <div class="current-weather">
+            <h2>CURRENT WEATHER</h2>
+            <h3 id="city-name">KIGALI, RW</h3>
+            <div id="current-day"></div>
+            
+            <div class="weather-main">
+                <img id="weather-icon" src="" alt="Weather icon">
+                <span id="temperature">-- °C</span>
+                <span id="weather-description" class="weather-description">--</span>
+            </div>
+            
+            <h3>AIR CONDITIONS</h3>
+            <div class="air-conditions">
+                <div>
+                    <strong>Real Feel</strong>
+                    <p id="real-feel">-- °C</p>
+                </div>
+                <div>
+                    <strong>Wind</strong>
+                    <p id="wind-speed">-- m/s</p>
+                </div>
+                <div>
+                    <strong>Clouds</strong>
+                    <p id="clouds">-- %</p>
+                </div>
+                <div>
+                    <strong>Humidity</strong>
+                    <p id="humidity">-- %</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="notes-section">
+            <h3>LIVE NOTES</h3>
+            <textarea id="note-input" placeholder="Add weather observations, reminders or suggestions..."></textarea>
+            <div class="note-actions">
+                <button id="send-note-btn">Save Note</button>
+            </div>
+        </div>
+        
+        <footer class="app-footer">
+            <div class="footer-content">
+                <div class="footer-info">
+                    <p>Created by <span class="highlight">Vestine Umukundwa</span></p>
+                    <p>© 2024 Weather Forecasting App</p>
+                </div>
+                <div class="footer-links">
+                    <a href="https://github.com/umukundwa004" target="_blank" class="social-link">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="mailto:mukundwau@gmail.com" class="social-link">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/umukundwa-vestine/" target="_blank" class="social-link">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                </div>
+            </div>
+        </footer>
+    </div>
+    </footer>
+    
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
+
