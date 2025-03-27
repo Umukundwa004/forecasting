@@ -1,4 +1,4 @@
-# Weather Forecasting App whic will help people to check weather easily
+# Weather Forecasting App which will help people to check weather easily
 
 
 this responsive web application will t display current weather and forecasts city worldwide for any city.
