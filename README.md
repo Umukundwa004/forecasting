@@ -67,4 +67,7 @@ git clone https://github.com/Umukundwa004/weather.git
 2. Deploy application code to both web servers
 3. Configure Nginx on all servers
 1. SSH into Web01 and Web02 servers
+## Deployment Instructions
+
+### Server Setup
 

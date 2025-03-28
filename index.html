@@ -9,27 +9,33 @@
 <body>
     <div class="container">
         <h1>Weather Forecasting App</h1>
+        
+        <!-- Date and location display section -->
         <div class="date-location">
-            <div id="current-date"></div>
-            <div id="current-location">Kigali, RW</div>
+            <div id="current-date"></div> 
+            <div id="current-location">Kigali, RW</div> 
         </div>
-        <!--search-->
+        
+        <!-- Search input for city -->
         <div class="search-container">
             <input type="text" id="city-input" placeholder="Enter city name">
             <button id="search-btn">Search</button>
         </div>
         
+        <!-- Current weather display section -->
         <div class="current-weather">
             <h2>CURRENT WEATHER</h2>
             <h3 id="city-name">KIGALI, RW</h3>
             <div id="current-day"></div>
             
+            <!-- weather information -->
             <div class="weather-main">
-                <img id="weather-icon" src="" alt="Weather icon">
-                <span id="temperature">-- °C</span>
-                <span id="weather-description" class="weather-description">--</span>
+                <img id="weather-icon" src="" alt="Weather icon"> 
+                <span id="temperature">-- °C</span> <!-- Temperature display -->
+                <span id="weather-description" class="weather-description">--</span> <!-- Weather condition -->
             </div>
             
+            <!-- Additional weather details -->
             <h3>AIR CONDITIONS</h3>
             <div class="air-conditions">
                 <div>
@@ -50,16 +56,17 @@
                 </div>
             </div>
         </div>
-        
 
+        <!-- Notes section for user input -->
         <div class="notes-section">
-            <h3>LEAVE A NOTE</h3>
+            <h3>LIVE NOTES</h3>
             <textarea id="note-input" placeholder="Add weather observations, reminders or suggestions..."></textarea>
             <div class="note-actions">
-                <button id="send-note-btn">Save Note</button>
+                <button id="send-note-btn">Save Note</button> 
             </div>
         </div>
         
+        <!-- Footer with creator info and social links -->
         <footer class="app-footer">
             <div class="footer-content">
                 <div class="footer-info">
@@ -68,28 +75,20 @@
                 </div>
                 <div class="footer-links">
                     <a href="https://github.com/umukundwa004" target="_blank" class="social-link">
-                        <i class="fab fa-github"></i>
+                        <i class="fab fa-github"></i> 
                     </a>
                     <a href="mailto:mukundwau@gmail.com" class="social-link">
-                        <i class="fas fa-envelope"></i>
+                        <i class="fas fa-envelope"></i> 
                     </a>
                     <a href="https://www.linkedin.com/in/umukundwa-vestine/" target="_blank" class="social-link">
-                        <i class="fab fa-linkedin"></i>
+                        <i class="fab fa-linkedin"></i> 
                     </a>
                 </div>
             </div>
         </footer>
     </div>
-    </footer>
-    
-    <!-- Font Awesome for icons -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 
-
-
-
+    <!-- Link to external JavaScript file-->
     <script type="module" src="script.js"></script>
-    
 </body>
 </html>
-

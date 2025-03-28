@@ -287,35 +287,6 @@
                 width: 100%;
             }
         }
-        .loading {
-            text-align: center;
-            padding: 20px;
-            font-style: italic;
-            color: #666;
-        }
-        
-        .error {
-            background: #ffebee;
-            padding: 15px;
-            border-radius: 5px;
-            text-align: center;
-            border-left: 4px solid #f44336;
-        }
-        
-        .error button {
-            background: #2196F3;
-            color: white;
-            border: none;
-            padding: 8px 15px;
-            margin-top: 10px;
-            border-radius: 4px;
-            cursor: pointer;
-        }
-        
-        .small {
-            font-size: 0.8em;
-            margin-top: 5px;
-        }
         /* Base Styles */
 :root {
 
