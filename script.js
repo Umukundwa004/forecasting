@@ -1,6 +1,5 @@
-const apiKey = process.env.API_KEY;
-require('dotenv').config();
-//console.log(Process.env);
+import { API_KEY } from "./config.js";
+
 
         // Initialize current dategit 
         function updateCurrentDate() {
@@ -12,7 +11,7 @@ require('dotenv').config();
         // Weather function
         async function fetchWeather(city) {
             try {
-                const response = await fetch(`https://api.openweathermap.org/data/2.5/weather?units=metric&q=${city}&appid=${apiKey}`);
+                const response = await fetch(`https://api.openweathermap.org/data/2.5/weather?units=metric&q=${city}&appid=${API_KEY}`);
                 
                 if (!response.ok) {
                     throw new Error('City not found. Please try another location.');
