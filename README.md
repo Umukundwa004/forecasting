@@ -11,6 +11,7 @@ Real-time Weather Data:
   -humidity
   - cloud coverage
   - Weather icons from OpenWeatherMap
+  
   -current time and date
 
 Live Notes System:
@@ -29,13 +30,13 @@ User-Friendly Interface:
 Frontend:
   - HTML, CSS, JavaScript
   - OpenWeatherMap API (Weather data)
-  - localStorage (Note persistence)
   -fontend icons
 
 Development Tools:
   - Visual Studio Code
   - Git/GitHub (Version control)
   - Chrome Developer Tools
+
   -microsoft edge
 
 ## Installation & Setup
