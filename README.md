@@ -1,7 +1,7 @@
 # Weather Forecasting App which will help people to check weather easily
 
 
-this responsive web application will t display current weather and forecasts city worldwide for any city.
+this responsive web application  that displays current weather and forecasts for cities worldwide .
 ## Features
 
 Real-time Weather Data:
