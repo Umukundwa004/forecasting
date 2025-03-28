@@ -2,7 +2,13 @@
 
 
 this responsive web application  that displays current weather and forecasts for cities worldwide .
-## Features
+## API Attribution
+Weather data provided by [OpenWeatherMap](https://openweathermap.org/api)
+
+API Usage:
+```javascript
+fetch(`https://api.openweathermap.org/data/2.5/weather?units=metric&q=${city}&appid=YOUR_API_KEY`)
+```
 
 Real-time Weather Data:
 
@@ -53,7 +59,12 @@ Development Tools:
 
 ## Deployment Steps
 
-1. Provision servers (Web01, Web02, LB01)
+1. ssh into servers (Web01, Web02, LB01)
+2. Clone repository to /var/www/html:
+```bash
+git clone https://github.com/Umukundwa004/weather.git
+```
 2. Deploy application code to both web servers
 3. Configure Nginx on all servers
+1. SSH into Web01 and Web02 servers
 

@@ -52,7 +52,7 @@ import { API_KEY } from "./config.js";
             } else {
                 alert('Please enter a city name');
             }
-        });
+        })
 
         // Allow search on Enter key
         document.getElementById("city-input").addEventListener("keypress", function(e) {
@@ -63,6 +63,17 @@ import { API_KEY } from "./config.js";
                 }
             }
         });
+
+        window.addEventListener('load', () => {
+            const lastCity = localStorage.getItem('lastCity') || 'Kigali';
+            fetchWeather(lastCity);
+        });
+        
+        // Add this at end of successful fetchWeather():
+        localStorage.setItem('lastCity', city);
+
+
+        
 
         // Note Saving Functionality
         document.addEventListener('DOMContentLoaded', function() {
@@ -111,6 +122,10 @@ import { API_KEY } from "./config.js";
                 this.style.borderColor = '#ddd';
             });
         });
+
+
+
+        
 
         // Initialize with default city
         //window.addEventListener('load', () => {
