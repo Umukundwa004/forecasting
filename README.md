@@ -47,10 +47,8 @@ Development Tools:
 
 ### Server Configuration
 - Web Servers(web01 and web02)
-
-Load Balancer
-  - Nginx round-robin balancing
-  - Health checks every 10 seconds
+-Load Balancer
+- Nginx round-robin balancing
 
 ## Deployment Steps
 
