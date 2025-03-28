@@ -41,7 +41,7 @@ Development Tools:
 ## Installation & Setup
 
 1.Clone the repository:
-   git clone https://github.com/Umukundwa004/weather-app.git
+   git clone https://github.com/Umukundwa004/forecasting.git
    cd weather-app
 
 
