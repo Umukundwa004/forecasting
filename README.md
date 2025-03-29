@@ -8,7 +8,12 @@ Weather data provided by [OpenWeatherMap](https://openweathermap.org/api)
 API Usage:
 ```javascript
 fetch(`https://api.openweathermap.org/data/2.5/weather?units=metric&q=${city}&appid=YOUR_API_KEY`)
+
 ```
+### how our app works
+ 
+ video( https://youtu.be/OOPWdxo2X-Y)
+
 
 Real-time Weather Data:
 
@@ -67,7 +72,4 @@ git clone https://github.com/Umukundwa004/weather.git
 2. Deploy application code to both web servers
 3. Configure Nginx on all servers
 1. SSH into Web01 and Web02 servers
-## Deployment Instructions
-
-### Server Setup
 
