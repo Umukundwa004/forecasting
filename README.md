@@ -12,7 +12,7 @@ fetch(`https://api.openweathermap.org/data/2.5/weather?units=metric&q=${city}&ap
 ```
 ### how our app works
  
- video( https://youtu.be/OOPWdxo2X-Y)
+ video-address(https://youtu.be/OOPWdxo2X-Y)
 
 
 Real-time Weather Data:
